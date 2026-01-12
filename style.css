@@ -1,0 +1,149 @@
+    .navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    }
+
+    .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+    .dropdown {
+    float: left;
+    overflow: hidden;
+    }
+
+    .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    }
+
+    .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(173, 163, 163);
+    }
+
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+    }
+
+    .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    }
+
+    .dropdown-content a:hover {
+    background-color: #ddd;
+    }
+
+    .dropdown:hover .dropdown-content {
+    display: block;
+    } 
+    .imgbanner {
+        display: flex;
+        margin: 0 auto;
+        width: auto;
+        height: 400px;
+        background-image: url("Picture/ประเพณีอุ้มพระดำน้ำ/1.jpg");
+        justify-content: center;
+        align-items: center;
+    }
+    .imgbanner h1 {
+        color: black;
+        font-size: 50px;
+        
+    }
+    .informationtextbox{
+        padding: 30px;
+        font-size: 30px;
+    }
+    .informationarea{
+        margin: 30px;
+    }
+    .indexifm{
+        margin: 10px;
+        display: flex;
+    }
+    .indexifm p { 
+        margin-left: 10px;
+        outline: none;
+        color: black;
+    }
+    .uldelete{
+        text-decoration: none;
+    }
+    .lastfooter {
+        display: flex;
+        font-size: 30px;
+        background-color: black;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+    }
+    table {
+        margin: 20px auto;
+        border-radius: 30px;
+        border: #333 1px solid;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        border-radius: 30px;
+        border: #333 1px solid;
+        padding: 8px;
+        font-size: 30px 
+    }
+    .container{
+        text-align: center; /* ทำให้ทุกอย่างข้างในอยู่กึ่งกลาง */
+        padding: 50px;
+    }
+.box {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    width: 300px;
+    display: inline-block; /* สั่งให้วางเรียงต่อกันในแนวนอน */
+    vertical-align: top;   /* จัดให้กล่องสูงเท่ากันในแนวบน */
+}
+
+/* ตกแต่งรูปภาพ */
+.pic {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* ตกแต่งหัวข้อ */
+.title {
+    color: darkblue;
+    font-size: 20px;
+}
+
+/* ตกแต่งเนื้อหา */
+.text {
+    font-size: 14px;
+    color: #333;
+}
+main h1 {
+    text-align: center;
+}
+    
