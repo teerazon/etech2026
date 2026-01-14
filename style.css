@@ -105,12 +105,17 @@
         border: #333 1px solid;
         border-collapse: collapse;
     }
+    tr {
+        align-items: center;
+        text-align: center;
+    }
 
     th, td {
+        min-width: 500px;
         border-radius: 30px;
         border: #333 1px solid;
         padding: 8px;
-        font-size: 30px 
+        font-size: 40px 
     }
     .container{
         text-align: center; /* ทำให้ทุกอย่างข้างในอยู่กึ่งกลาง */
@@ -119,8 +124,8 @@
 .box {
     border: 1px solid #ccc;
     padding: 15px;
-    margin: 10px;
-    width: 300px;
+    margin: 100px;
+    width: 500px;
     display: inline-block; /* สั่งให้วางเรียงต่อกันในแนวนอน */
     vertical-align: top;   /* จัดให้กล่องสูงเท่ากันในแนวบน */
 }
@@ -135,12 +140,12 @@
 /* ตกแต่งหัวข้อ */
 .title {
     color: darkblue;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 /* ตกแต่งเนื้อหา */
 .text {
-    font-size: 14px;
+    font-size: 20px;
     color: #333;
 }
 main h1 {
